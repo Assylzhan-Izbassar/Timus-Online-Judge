@@ -1,3 +1,4 @@
+//NOTE: scanf and printf are accelerated the time running.
 #include <iostream>
 #include <vector>
 
