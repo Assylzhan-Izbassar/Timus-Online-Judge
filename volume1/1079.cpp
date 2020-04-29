@@ -36,8 +36,7 @@ int main()
     vector<size_t> v;
     vector<size_t> copy;
 
-    while (true)
-    {
+    while (true){
         cin >> m;
 
         if (m != 0)
@@ -58,21 +57,17 @@ int main()
     int j = 0;
     maxi[j] = 0;
 
-    for (size_t i = 0; i <= v[0]; ++i)
-    {
-        if (arr[i] > maxi[j])
-        {
+    for (size_t i = 0; i <= v[0]; ++i){
+        if (arr[i] > maxi[j]){
             maxi[i] = arr[i];
             j = i;
         }
-        else
-        {
+        else{
             maxi[i] = maxi[j];
         }
     }
 
-    for (size_t i = 0; i < copy.size(); ++i)
-    {
+    for (size_t i = 0; i < copy.size(); ++i){
         cout << maxi[copy[i]] << endl;
     }
 

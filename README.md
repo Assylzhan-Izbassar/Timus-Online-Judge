@@ -1,2 +1,3 @@
 # Timus-Online-Judge
-just-for-fun
+
+- [ ] 1087
