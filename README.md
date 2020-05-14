@@ -4,4 +4,5 @@
 
 - [ ] [1087](https://acm.timus.ru/problem.aspx?space=1&num=1087)
 - [ ] [1723](https://acm.timus.ru/problem.aspx?space=1&num=1723)
+- [ ] [1313](https://acm.timus.ru/problem.aspx?space=1&num=1313)
 
