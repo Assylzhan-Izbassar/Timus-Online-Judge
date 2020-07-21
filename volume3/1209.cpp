@@ -1,39 +1,30 @@
 #include <iostream>
+#include <cmath>
 #include <vector>
 
 using namespace std;
 
 int main(){
 
+    ios::sync_with_stdio(false);
+
     int n;
     scanf("%d", &n);
 
-    vector<int> arr(n);
-
-    for(size_t i=0; i < n; ++i)
-        scanf("%d", &arr[i]);
-
-    int maxi = arr[0];
+    vector<double> a(n);
+    for(size_t i=0; i < n; ++i){
+        cin >> a[i];
+    }
 
     for(size_t i=0; i < n; ++i){
-        if(arr[i] > maxi)
-            maxi = arr[i];
+        double p = 8 * a[i] - 7;
+        long long q = sqrt(p);
+        if(q*q == p){
+            cout << 1 << " ";
+        }else{
+            cout << 0 << " ";
+        }
     }
-    
-    vector<int> degree;
-    int zero = 0;
-
-    while(degree.size() <= maxi + 1){
-        degree.push_back(1);
-
-        zero++;
-    }
-
-    for(size_t i=0; i < degree.size(); ++i)
-        cout << degree[i];
-
-    cout << endl;
-    
 
     return 0;
 }
