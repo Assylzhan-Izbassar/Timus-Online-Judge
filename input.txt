@@ -1,1 +1,14 @@
-5151
+0 Ayzenshteyn
+1 Burmistrov
+2 Chevdar
+3 Cormen
+4 Dublennykh
+5 Fominykh
+6 Isenbaev
+7 Ivankov
+8 Kurpilyanskiy
+9 Leiserson
+10 Oparin
+11 Rivest
+12 Samsonov
+13 Toropov
